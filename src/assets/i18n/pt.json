@@ -18,7 +18,12 @@
     "POINTER": "Ponteiro",
     "STACK": "Pilha",
     "QUEUE": "Filas",
-    "LIST": "Listas"
+    "LIST": "Listas",
+    "TRAINING": "Debug"
+  },
+  "TREINAMENTO": {
+    "TITLE": "Debug",
+    "UNDER_CONSTRUCTION": "Página em construção."
   },
   "HOME": {
     "TITLE": "Estruturas Disponíveis",

@@ -40,7 +40,12 @@
     "POINTER": "Pointer",
     "STACK": "Stack",
     "QUEUE": "Queue",
-    "LIST": "Lists"
+    "LIST": "Lists",
+    "TRAINING": "Debug"
+  },
+  "TREINAMENTO": {
+    "TITLE": "Debug",
+    "UNDER_CONSTRUCTION": "Page under construction."
   },
   "MODAL": {
     "CHOICE_TITLE": "Choose the option to describe",

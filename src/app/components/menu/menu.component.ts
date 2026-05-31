@@ -25,6 +25,7 @@ export class MenuComponent implements OnInit, OnDestroy {
   { label: 'Pilha', labelKey: 'MENU.STACK', icon: 'pilha.svg', route: '/pilha'},
   { label: 'Filas', labelKey: 'MENU.QUEUE', icon: 'fila.svg', route: '/filas' },
   { label: 'Listas', labelKey: 'MENU.LIST', icon: 'lista.svg', route: '/listas' },
+  { label: 'Debug', labelKey: 'MENU.TRAINING', icon: 'debug.svg', route: '/treinamento' },
   ];
 
   currentLang: 'pt' | 'en' = 'pt';

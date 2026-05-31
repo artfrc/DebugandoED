@@ -27,6 +27,7 @@ import { SavedStructuresComponent } from './components/saved-structures/saved-st
 import { ListaDuplamenteInsereInicioComponent } from './components/features/listaDuplamenteEncadeada/lista-duplamente-insere-inicio/lista-duplamente-insere-inicio.component';
 import { ListaDuplamenteInsereFimComponent } from './components/features/listaDuplamenteEncadeada/lista-duplamente-insere-fim/lista-duplamente-insere-fim.component';
 import { ListaDuplamenteInsereOrdenadoComponent } from './components/features/listaDuplamenteEncadeada/lista-duplamente-insere-ordenado/lista-duplamente-insere-ordenado.component';
+import { TreinamentoComponent } from './components/treinamento/treinamento.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent }, // ✅ Definir a Home como rota principal
@@ -58,6 +59,7 @@ export const routes: Routes = [
   { path: 'conquistas', component: ConquistasComponent }, // ✅ Página de conquistas/medalhas
   { path: 'estruturas-salvas', component: SavedStructuresComponent }, // ✅ Estruturas salvas
   { path: 'professor/dashboard', component: TeacherDashboardComponent }, // ✅ Dashboard do professor
+  { path: 'treinamento', component: TreinamentoComponent },
   { path: '**', redirectTo: '' }, // Qualquer rota inválida vai para a Home
 ];
 
